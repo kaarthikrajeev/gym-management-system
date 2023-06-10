@@ -1,0 +1,36 @@
+{% include 'admin_header.html' %}
+<center>
+	<form method="post">
+		<table class="table" style="width: 1000;">
+			<tr>
+				<th>Index</th>
+				<th>Customer</th>
+				<th>Category</th>
+				<th>Product</th>
+				<th>Price</th>
+				<th>Quantity</th>
+				<th>Pay Amount</th>
+				<th>Paid Date</th>
+				<th>Invoice Details</th>
+			</tr>
+			{% for i in data['view'] %}
+			<tr>
+				<td>{{loop.index}}</td>
+				<td>{{i['first_name']}} {{i['last_name']}}</td>
+				<td>{{i['category']}}</td>
+				<td>{{i['product']}}</td>
+				<td>{{i['rate']}}</td>
+				<td>{{i['bquantity']}}</td>
+				<td>{{i['amount']}}</td>
+				<td>{{i['date']}}</td>
+				<td><a href="admin_gen_invoice?bmaster_id={{ i['bmaster_id'] }}">Invoice</a></td>
+				{% if i['invoice']=="NA" %}
+				<td><a href="admin_upload_invoice?payment_id={{ i['payment_id'] }}">Upload Invoice</a></td>
+				{% endif %}
+			</tr>
+			{% endfor %}
+			
+		</table>
+	</form>
+</center>
+{% include 'footer.html' %}

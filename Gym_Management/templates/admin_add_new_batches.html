@@ -1,0 +1,73 @@
+{% include 'admin_header.html' %}
+  <section class="classtime-section class-time-table spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="section-title">
+                        <!-- <h2>Classtime Table</h2> -->
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="row">
+                <div class="col-lg-12">
+                    <div class="timetable-controls">
+                        <ul>
+                            <li class="active" data-tsfilter="all">all class</li>
+                            <li data-tsfilter="crossfit">crossfit</li>
+                            <li data-tsfilter="lunge">lunge ball</li>
+                            <li data-tsfilter="ppsr">ppsr</li>
+                            <li data-tsfilter="walls">walls</li>
+                            <li data-tsfilter="candy">candy</li>
+                        </ul>
+                    </div>
+                </div>
+            </div> -->
+            <div class="table">
+
+					
+	<form method="post">
+		<table align="center" class="table" style="width: 500px;">
+			<h2 align="center" style="color: white;">ADD BATCHES</h2>
+			<tr>
+				<th style="color: white;">Batch Name</th>
+				<td><input type="text" required="" name="batch"></td>
+			</tr>
+			<tr>
+				<th style="color: white;">Starting Time </th>
+				<td><input type="text" required="" placeholder="hh:mm-AM/PM" name="stime"></td>
+			</tr>
+			<tr>
+				<th style="color: white;"> Ending Time</th>
+				<td><input type="text" required="" placeholder="hh:mm-AM/PM"  name="etime"></td>
+			</tr>
+			<tr>
+				<th style="color: white;"> Instructor</th>
+				<td style="color: black;">
+					<select name="instructor_id" required="">
+						<option selected >Select Instructor</option>
+						{% for row in data['view_instructor'] %}
+						<option value="{{row['instructor_id']}}" >{{row['gfirst_name']}} {{row['glast_name']}}</option>
+						{% endfor %}
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center"><input type="submit" name="batches" value="ADD" class="btn btn-primary"></td>
+			</tr>
+		</table>
+	</form>
+</table>
+
+
+			
+
+						</div>												
+					</div>
+				</div>
+			</section>
+
+
+
+	</form>
+
+{% include 'footer.html' %}

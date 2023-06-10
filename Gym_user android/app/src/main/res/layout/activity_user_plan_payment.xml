@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bga"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".User_plan_payment" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Payment Methods"
+        android:textColor="#fff"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/cn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="#000"
+        android:background="@drawable/edit_text_design"
+        android:padding="12dp"
+        android:maxLength="16"
+        android:layout_marginTop="15dp"
+        android:hint="Card Number"
+
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/expd"
+            android:textColor="#000"
+            android:background="@drawable/edit_text_design"
+            android:padding="12dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+
+            android:hint="MM/YY" />
+
+        <EditText
+            android:id="@+id/cvv"
+            android:textColor="#000"
+            android:background="@drawable/edit_text_design"
+            android:padding="12dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLength="3"
+            android:ems="10"
+            android:hint="CVV"
+            android:inputType="textPassword" />
+    </TableRow>
+
+    <EditText
+        android:id="@+id/chn"
+        android:textColor="#000"
+        android:background="@drawable/edit_text_design"
+        android:padding="12dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="CARD HOLDERS NAME"
+
+        android:inputType="textPersonName" />
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:textColor="#000"
+        android:background="@drawable/edit_text_design"
+        android:padding="12dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Amount to be Payed"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/cash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+
+            android:focusable="false"
+            android:inputType="number" />
+
+    </TableRow>
+
+    <Button
+        android:id="@+id/pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:background="@drawable/design_bg_layout"
+        android:layout_marginTop="20dp"
+        android:text="Subscribe" />
+
+</LinearLayout>

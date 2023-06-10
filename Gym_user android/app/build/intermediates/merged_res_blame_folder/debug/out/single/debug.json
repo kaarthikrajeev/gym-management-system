@@ -1,0 +1,510 @@
+[
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_gym5.jpg.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\gym5.jpg"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\font_calibriz.ttf.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\font\\calibriz.ttf"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\layout_activity_forgot_password.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\layout\\activity_forgot_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_gymc.png.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\gymc.png"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_bgl.png.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\bgl.png"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi-v21_ic_menu_gallery.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-pngs-4:\\drawable-hdpi-v21\\ic_menu_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\font_calibri.ttf.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\font\\calibri.ttf"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\menu_complaint.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\menu\\complaint.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable_round_corner.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable\\round_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable_gymlogo.png.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable\\gymlogo.png"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\layout_activity_complaint.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\layout\\activity_complaint.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\layout_activity_view_tournament.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\layout\\activity_view_tournament.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\layout_activity_user_view_workouts.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\layout\\activity_user_view_workouts.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\layout_activity_user_view_batch.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\layout\\activity_user_view_batch.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_gym6.jpg.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\gym6.jpg"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\layout_custom_equipments.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\layout\\custom_equipments.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\font_verdanai.ttf.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\font\\verdanai.ttf"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi-v21_ic_baseline_local_hospital_24.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-pngs-4:\\drawable-hdpi-v21\\ic_baseline_local_hospital_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_gym11.jpg.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\gym11.jpg"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\font_monster.ttf.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\font\\monster.ttf"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\layout_activity_add_to_cart.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\layout\\activity_add_to_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi-v21_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-pngs-4:\\drawable-hdpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\font_calibril.ttf.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\font\\calibril.ttf"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_bgp.jpg.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\bgp.jpg"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_ic_menu_slideshow.png.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-pngs-4:\\drawable-hdpi\\ic_menu_slideshow.png"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\layout_activity_user_view_employee.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\layout\\activity_user_view_employee.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\font_gratevibes.ttf.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\font\\gratevibes.ttf"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_ic_baseline_local_hospital_24.png.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-pngs-4:\\drawable-hdpi\\ic_baseline_local_hospital_24.png"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\layout_activity_message.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\layout\\activity_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\layout_activity_user_rate_employee.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\layout\\activity_user_rate_employee.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_comp.jpg.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\comp.jpg"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\menu_payment.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\menu\\payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\layout_activity_ipsettings.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\layout\\activity_ipsettings.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_ic_baseline_note_alt_24.png.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-pngs-4:\\drawable-hdpi\\ic_baseline_note_alt_24.png"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\layout_cust_category.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\layout\\cust_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_tran.png.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\tran.png"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\layout_activity_payment.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\layout\\activity_payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_gym7.jpg.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\gym7.jpg"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_logout.jpg.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\logout.jpg"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_c.png.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\c.png"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_ic_menu_gallery.png.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-pngs-4:\\drawable-hdpi\\ic_menu_gallery.png"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\font_tahoma.ttf.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\font\\tahoma.ttf"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\layout_activity_view_usage.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\layout\\activity_view_usage.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\layout_activity_view_my_request.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\layout\\activity_view_my_request.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_ipbtn.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\ipbtn.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\layout_activity_feedback.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\layout\\activity_feedback.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_gymp.jpg.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\gymp.jpg"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\layout_activity_payments.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\layout\\activity_payments.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_edittext.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\layout_activity_user_view_category.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\layout\\activity_user_view_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\menu_home.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\menu\\home.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\font_monst.otf.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\font\\monst.otf"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_gym.jpg.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\gym.jpg"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\layout_activity_customer_make_payment.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\layout\\activity_customer_make_payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi-v21_ic_menu_slideshow.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-pngs-4:\\drawable-hdpi-v21\\ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\layout_activity_user_view_attendance.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\layout\\activity_user_view_attendance.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\menu_login.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\menu\\login.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\menu_message.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\menu\\message.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_gym4.jpg.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\gym4.jpg"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_bt.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\bt.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\layout_cust_products.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\layout\\cust_products.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\menu_ipsettings.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\menu\\ipsettings.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\layout_activity_viewdiet.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\layout\\activity_viewdiet.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\menu_view_usage.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\menu\\view_usage.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_ppt.jpg.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\ppt.jpg"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\font_verdanaz.ttf.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\font\\verdanaz.ttf"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_loginbtn.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\loginbtn.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_bgb.jpeg.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\bgb.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-pngs-4:\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_gym1.jpg.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\gym1.jpg"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_gym8.jpg.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\gym8.jpg"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi-v21_ic_baseline_note_alt_24.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-pngs-4:\\drawable-hdpi-v21\\ic_baseline_note_alt_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\layout_activity_view_equipments.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\layout\\activity_view_equipments.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_pp.png.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\pp.png"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\font_calibrii.ttf.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\font\\calibrii.ttf"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_edit_text_design.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\edit_text_design.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable_round_shape.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable\\round_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\layout_activity_user_payment.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\layout\\activity_user_payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\font_calibrili.ttf.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\font\\calibrili.ttf"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\font_calibrib.ttf.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\font\\calibrib.ttf"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_gym2.jpg.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\gym2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_myord.jpg.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\myord.jpg"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\layout_activity_view_products.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\layout\\activity_view_products.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_gym9.jpg.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\gym9.jpg"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\layout_cust_list.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\layout\\cust_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_profile.png.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\profile.png"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable_a_bgs1.jpg.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable\\a_bgs1.jpg"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\menu_view_equipments.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\menu\\view_equipments.xml"
+    },
+    {
+        "merged": "com.example.gym.app-merged_res-9:/layout_activity_user_plan_payment.xml.flat",
+        "source": "com.example.gym.app-main-11:/layout/activity_user_plan_payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\layout_activity_registration.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\layout\\activity_registration.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_buttonn.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\buttonn.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\layout_activity_enter_otp.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\layout\\activity_enter_otp.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\font_verdana.ttf.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\font\\verdana.ttf"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\menu_registration.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\menu\\registration.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_att.png.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\att.png"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\font_dancing.ttf.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\font\\dancing.ttf"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi-v21_ic_menu_camera.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-pngs-4:\\drawable-hdpi-v21\\ic_menu_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_button_bg.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\button_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_bgc.jpeg.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\bgc.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\layout_activity_direct_buy_quantity.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\layout\\activity_direct_buy_quantity.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_gym10.jpg.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\gym10.jpg"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\font_tahomabd.ttf.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\font\\tahomabd.ttf"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\layout_activity_user_view_plan.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\layout\\activity_user_view_plan.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_ic_menu_camera.png.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-pngs-4:\\drawable-hdpi\\ic_menu_camera.png"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_gym3.jpg.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\gym3.jpg"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\font_verdanab.ttf.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\font\\verdanab.ttf"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\menu_feedback.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\menu\\feedback.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\layout_activity_set_new_password.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\layout\\activity_set_new_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\layout_activity_view_my_orders.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\layout\\activity_view_my_orders.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\menu_viewdiet.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\menu\\viewdiet.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\layout_activity_view_cart_items.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\layout\\activity_view_cart_items.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_layout_bg.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\layout_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\layout_customtext.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\layout\\customtext.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\layout_activity_user_plan_payment.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\layout\\activity_user_plan_payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_side_nav_bar.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\side_nav_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_design_bg_layout.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\design_bg_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\menu_payments.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\menu\\payments.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_backclr.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\backclr.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\layout_activity_view_order_products.xml.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\layout\\activity_view_order_products.xml"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_bga.jpeg.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\bga.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-merged_res-9:\\drawable-hdpi_prod.jpg.flat",
+        "source": "C:\\Users\\karth\\.gradle\\daemon\\7.5\\com.example.gym.app-main-11:\\drawable-hdpi\\prod.jpg"
+    }
+]

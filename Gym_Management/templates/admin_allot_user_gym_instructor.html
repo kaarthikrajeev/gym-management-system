@@ -1,0 +1,46 @@
+{% include 'admin_header.html'%}
+<div class="container" style="margin: 50px">
+	<center>
+		<form method="post">
+
+
+
+{% if data['rr'] %}
+<h3>Alloted Batch</h3>
+<table class="table" style="width: 500px">
+	{% for i in data['rr'] %}
+	<tr>
+		<th>Batch : {{ i['batch_name'] }}</th>
+	</tr>
+	<tr>
+		<th>Time : {{ i['start_time'] }} - {{ i['end_time'] }}</th>
+	</tr>
+	{% endfor %}
+</table>
+{% else %}
+<h3>Allot Batch</h3>
+
+<table class="table" style="width: 500px">
+	<tr>
+		<td>
+				<select name="batches_id">
+										
+				<option selected>Select batches</option>
+				{% for row in data['batches'] %}
+				<option value="{{row['batch_id']}}">{{row['batch_name']}} </option>
+				{% endfor %}
+			</select>
+		
+</td>
+	</tr>
+	<tr>
+		<td>
+			<input type="submit" name="allot" value="Allot" class="btn btn-primary">
+		</td>
+	</tr>
+</table>
+{% endif %}
+</form>
+</center>
+</div>
+{% include 'footer.html' %}

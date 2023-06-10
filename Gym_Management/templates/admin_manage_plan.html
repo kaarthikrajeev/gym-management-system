@@ -1,0 +1,70 @@
+{% include 'adminheader.html' %}
+ <!-- HERO -->
+     <section class="hero d-flex flex-column justify-content-center align-items-center" id="home">
+
+            <div class="bg-overlay"></div>
+
+               <div class="container">
+                    <div class="row">
+
+                         <div class="col-lg-8 col-md-10 mx-auto col-12">
+                              <div class="hero-text mt-5 text-center">
+<center>
+	<form method="post">
+		
+		<h1>MANAGE PLAN</h1>
+
+		<table class="table" style="width:  700px">
+		<tr>
+			<th>Plan Type</th>
+			<td><input type="text" name="plan_type" required id="" class="form-control" autocomplete="off"></td>
+		</tr>
+        <tr>
+            <th>Duration(Months)</th>
+            <td><input type="number" name="duration" min="0" id="" class="form-control" autocomplete="off" required></td>
+        </tr>
+        <tr>
+            <th>Amount</th>
+            <td><input type="number" name="amount" min="0" id="" class="form-control" required></td>
+        </tr>
+		
+		<tr>
+			<td colspan="2" align="center"><input type="submit" name="submit" value="SUBMIT"></td>
+		</tr>
+
+
+		</table>
+
+
+		<h1>PLANS ADDED IN OUR SYSTEM</h1>
+		<table class="table" width="600px">
+			<tr>
+				<th>SL.NO</th>
+				<th>Plan Type</th>
+				<th>Duration</th>
+				<TH>Amount</TH>
+			</tr>
+			{% for row in data['plan'] %}
+			<tr>
+				<td>{{loop.index}}</td>
+				<td>{{ row['plan_type'] }}</td>
+				<td>{{ row['duration'] }}</td>
+				<td>{{ row['amount'] }}</td>
+				<td><a href="?action=delete&id={{ row['plan_id'] }}" class="btn btn-danger" >DELETE</a></td>
+				
+			</tr>
+			{% endfor%}
+		</table>
+		
+	</form>
+</center>
+                              </div>
+                         </div>
+
+                    </div>
+               </div>
+     </section>
+		   						
+                            	   		
+
+{% include 'footer.html' %}

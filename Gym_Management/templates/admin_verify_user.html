@@ -1,0 +1,92 @@
+{% include 'admin_header.html' %}
+
+
+    <section class="classtime-section class-time-table spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="section-title">
+                        <!-- <h2>Classtime Table</h2> -->
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="row">
+                <div class="col-lg-12">
+                    <div class="timetable-controls">
+                        <ul>
+                            <li class="active" data-tsfilter="all">all class</li>
+                            <li data-tsfilter="crossfit">crossfit</li>
+                            <li data-tsfilter="lunge">lunge ball</li>
+                            <li data-tsfilter="ppsr">ppsr</li>
+                            <li data-tsfilter="walls">walls</li>
+                            <li data-tsfilter="candy">candy</li>
+                        </ul>
+                    </div>
+                </div>
+            </div> -->
+            <div class="table">
+            				<form method="post">
+							<table align="center" border="2" class="table" style="width: 500px">
+							<h2 align="center" style="color: white;">USERS</h2>
+							<thead>
+								<tr>
+									<th style="color: white;">User Name</th>
+									<th style="color: white;">Age</th>
+									<th style="color: white;">Gender</th>
+									<th style="color: white;">Weight</th>
+									<th style="color: white;">Height</th>
+									<th style="color: white;">Phone</th>
+									<th style="color: white;">Email</th>
+									<th style="color: white;">Verify Status</th>
+									<th style="color: white;">Batch Name</th>
+								</tr>
+							</thead>
+							<tbody>
+								{% for row in data['view_user'] %}
+								<tr>
+									<td style="color: white;">{{row['first_name']}} {{row['last_name']}}</td>
+									<td style="color: white;">{{row['age']}}</td>
+									<td style="color: white;">{{row['gender']}}</td>
+									<td style="color: white;">{{row['weight']}}</td>
+									<td style="color: white;">{{row['height']}}</td>
+									<td style="color: white;">{{row['phone']}}</td>
+									<td style="color: white;">{{row['email']}}</td>
+								<td style="color: white;">{{row['payment_status']}}</td>
+										{% if row['payment_status']=="Paid"%}
+									<td style="color: white;"><a href="?action=verify&id={{row['user_id']}}">Verify</a></td>
+									
+									
+									{% elif row['payment_status']=="Payment Confirm" %}
+									
+									<!-- <td style="color: white;">{{row['batch_name']}}</td> -->
+									<td style="color: white;"><a href="admin_allot_user_gym_instructor?user_id={{ row['user_id'] }}">Allot Batch</a></td>
+								{% endif %}
+									<!-- <td>
+ 
+											
+										<select name="instructor_id">
+										
+											<option selected>Select Instructor</option>
+											{% for row in data['view_instructor'] %}
+											<option value="{{row['instructor_id']}}">{{row['first_name']}} {{row['last_name']}}</option>
+											{% endfor %}
+										</select> -->
+
+											<!-- <input type="submit" name="allot" value="Allot" class="btn btn-primary">
+											<input type="hidden" name="user_id" value="{{row['user_id']}}"> -->
+									
+										<!-- </td> -->
+
+								</tr>
+								{% endfor %}
+							</tbody>
+						</table>
+					</form>
+
+						</div>												
+					</div>
+				</div>
+			</section>
+
+
+{% include 'footer.html' %}

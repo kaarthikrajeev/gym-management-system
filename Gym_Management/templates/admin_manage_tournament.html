@@ -1,0 +1,82 @@
+{% include 'adminheader.html' %}
+ <!-- HERO -->
+     <section class="hero d-flex flex-column justify-content-center align-items-center" id="home">
+
+            <div class="bg-overlay"></div>
+
+               <div class="container">
+                    <div class="row">
+
+                         <div class="col-lg-8 col-md-10 mx-auto col-12">
+                              <div class="hero-text mt-5 text-center">
+<center>
+	<form method="post">
+	
+	
+
+		<h1>MANAGE TOURNAMENT</h1>
+
+		<table class="table" style="width:  700px">
+		<tr>
+			<th>Name</th>
+			<td><input type="text" name="name"  required class="form-control"></td>
+		</tr>
+        <tr>
+			<th>Place</th>
+			<td><input type="text" name="place" required  class="form-control"></td>
+		</tr>
+        <tr>
+			<th>Date</th>
+			<td><input type="text" name="date"  class="form-control"></td>
+		</tr>
+        <tr>
+			<th>Time</th>
+			<td><input type="text" name="time" required class="form-control"></td>
+		</tr>
+		
+		<tr>
+			<td colspan="2" align="center"><input type="submit" name="submit" value="SUBMIT"></td>
+		</tr>
+
+
+		</table>
+
+
+		{% if data['tou'] %}
+		<h1>TOURNAMENT ADDED IN OUR SYSTEM</h1>
+		<table class="table" width="600px">
+			<tr>
+				<th>SL.NO</th>
+				<th>Name</th>
+				<th>Place</th>
+				<TH>Date</TH>
+                <th>Time</th>
+			</tr>
+			{% for row in data['tou'] %}
+			<tr>
+				<td>{{loop.index}}</td>
+				<td>{{ row['name'] }}</td>
+				<td>{{ row['place'] }}</td>
+				<td>{{ row['date'] }}</td>
+				<td>{{ row['time'] }}</td>
+				<!-- <td><a href="?action=delete&id={{ row['tournament_id'] }}" class="btn btn-danger" >DELETE</a></td> -->
+				
+			</tr>
+			{% endfor%}
+		</table>
+		{% else %}
+		<h2>NO TOURNAMENT ADDED IN OUR SYSTEM</h2>
+		{% endif %}
+		
+	</form>
+</center>
+                              </div>
+                         </div>
+
+                    </div>
+               </div>
+     </section>
+		   						
+                            	   		
+
+{% include 'footer.html' %}

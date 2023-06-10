@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgb"
+    android:padding="20dp"
+    android:gravity="center"
+    tools:context=".Customer_make_payment">
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:textStyle="italic|bold"
+        android:paddingLeft="100dp"
+        android:text="Make Payment"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/etwrk"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_gravity="center"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:ems="10"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:hint="Work"-->
+    <!--        android:inputType="textPersonName" />-->
+
+    <EditText
+        android:id="@+id/amt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:textColor="#000"
+        android:background="@drawable/edit_text_design"
+        android:padding="12dp"
+        android:layout_marginTop="15dp"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/etno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        android:background="@drawable/edit_text_design"
+        android:padding="12dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Card Number"
+        android:maxLength="16"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/cvv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        android:background="@drawable/edit_text_design"
+        android:padding="12dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="CVV"
+        android:maxLength="3"
+        android:inputType="numberPassword" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        android:background="@drawable/edit_text_design"
+        android:padding="12dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Cardholder Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/exp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        android:background="@drawable/edit_text_design"
+        android:padding="12dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Expiry date"
+        android:inputType="textPersonName" />
+
+
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:background="@drawable/design_bg_layout"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:text="PAY" />
+
+
+<!--    <ListView-->
+<!--        android:id="@+id/lv2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent" />-->
+
+</LinearLayout>

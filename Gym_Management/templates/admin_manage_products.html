@@ -1,0 +1,136 @@
+{% include 'adminheader.html' %}
+ <!-- HERO -->
+     <section class="hero d-flex flex-column justify-content-center align-items-center" id="home">
+
+            <div class="bg-overlay"></div>
+
+               <div class="container">
+                    <div class="row">
+
+                         <div class="col-lg-8 col-md-10 mx-auto col-12">
+                              <div class="hero-text mt-5 text-center">
+<center>
+	<form method="post" enctype="multipart/form-data">
+		{% if data['updater'] %}
+		<h1>UPDATE PRODUCTS</h1>
+		
+		<table class="table" style="width:  700px">
+		<tr>
+			<th>PRODUCT</th>
+			<td><input type="text" name="product" value="{{data['updater'][0]['product']}}"  class="form-control"></td>
+		</tr>
+		<tr>
+			<th>QUANTITY</th>
+			<td><input type="text" name="qua" value="{{data['updater'][0]['quantity']}}"  class="form-control"></td>
+		</tr>
+		<tr>
+			<th>RATE</th>
+			<td><input type="text" name="rate" value="{{data['updater'][0]['rate']}}"  class="form-control"></td>
+		</tr>
+		<tr>
+			<th>STATUS</th>
+			<td>
+				<select name="status">
+					{% if data['updater'][0]['status']=='Available' %}
+					<option selected="">Available</option>
+					<option>Unavailable</option>
+					{% else %}
+					<option selected="">Unvailable</option>
+					<option>Available</option>
+					{% endif %}
+				</select>
+			</td>
+		</tr>
+
+		<tr>
+			<td colspan="2" align="center"><input type="submit" name="update" value="UPDATE" class="btn btn-primary"></td>
+		</tr>
+	</table>
+
+
+		{% else %}
+
+	
+
+		<h1>MANAGE PRODUCTS ON CATEGORY-{{data['name']}}</h1>
+
+		<table class="table" style="width:  700px">
+		<tr>
+			<th>PRODUCT</th>
+			<td><input type="text" name="product"  class="form-control"></td>
+		</tr>
+		<tr>
+			<th>QUANTITY</th>
+			<td><input type="text" name="qua" class="form-control"></td>
+		</tr>
+		<tr>
+			<th>RATE</th>
+			<td><input type="text" name="rate" class="form-control"></td>
+		</tr>
+		<tr>
+			<th>IMAGE</th>
+			<td><input type="file" name="image" class="form-control"></td>
+		</tr>
+		<tr>
+			<th>STATUS</th>
+			<td>
+				<select name="status" class="form-control">
+					<option>Available</option>
+					<option>Unavailable</option>
+				</select>
+			</td>
+		</tr>
+		
+		<tr>
+			<td colspan="2" align="center"><input type="submit" name="submit" value="SUBMIT"></td>
+		</tr>
+
+
+		</table>
+
+
+		{% if data['product'] %}
+		<h1>PRODUCTS ADDED IN CATEGORY- {{data['name']}}</h1>
+		<table class="table" width="600px">
+			<tr>
+				<th>SL.NO</th>
+				<th>IMAGE</th>
+				<th>PRODUCTS</th>
+				<th>QUANTITY</th>
+				<TH>RATE</TH>
+				<th>UPDATE</th>
+				<th>DELETE</th>
+			</tr>
+			{% for row in data['product'] %}
+			<tr>
+				<td>{{loop.index}}</td>
+				<td><img src="/{{ row['image'] }}" alt="{{ row['image'] }}" style="width: 150px;"></td>
+				<td>{{ row['product'] }}</td>
+				<td>{{ row['quantity'] }}</td>
+				<td>{{ row['rate'] }}</td>
+				<td>{{ row['status'] }}</td>
+				<td>
+					<a href="?action=update&id={{row['product_id']}}&name={{data['name']}}&catid={{data['catid']}}" class="btn btn-warning">UPDATE</a></td>
+				<td>
+					<a href="?action=delete&id={{row['product_id']}}&name={{data['name']}}&catid={{data['catid']}}" class="btn btn-danger" >DELETE</a></td>
+			</tr>
+			{% endfor%}
+		</table>
+		{% else %}
+		<h2>NO PRODUCTS ADDED IN OUR SYSTEM</h2>
+		{% endif %}
+ 
+
+		{% endif %}
+	</form>
+</center>
+                              </div>
+                         </div>
+
+                    </div>
+               </div>
+     </section>
+		   						
+                            	   		
+
+{% include 'footer.html' %}

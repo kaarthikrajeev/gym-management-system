@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/gym9"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="PAYMENT" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textColorHint="#000"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        android:background="@drawable/edit_text_design"
+        android:padding="12dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Place Holder Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:background="@drawable/edit_text_design"
+        android:padding="12dp"
+        android:layout_marginTop="15dp"
+        android:maxLength="16"
+        android:textColorHint="#000"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center"
+
+        android:ems="10"
+        android:hint="Account Number"
+        android:digits="0123456789" />
+
+    <EditText
+        android:id="@+id/editTextNumber1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:background="@drawable/edit_text_design"
+        android:padding="12dp"
+        android:layout_marginTop="15dp"
+        android:textColorHint="#000"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="CVV"
+        android:maxLength="3"
+        android:digits="0123456789" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textColorHint="#000"
+        android:textColor="#000"
+        android:paddingLeft="10dp"
+        android:background="@drawable/edit_text_design"
+        android:padding="12dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:maxLength="6"
+        android:hint="Exp. Date"
+        android:inputType="date" />
+
+    <TableRow
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textColorHint="#000"
+
+        android:paddingLeft="10dp"
+        android:textColor="#000"
+        android:background="@drawable/edit_text_design"
+        android:padding="12dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+         >
+
+        <TextView
+            android:id="@+id/tvamounts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000"
+            android:text="Total Amount : " />
+
+        <TextView
+            android:id="@+id/tvamount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginRight="50dp"
+            android:text="0" />
+
+
+    </TableRow>
+
+
+    <Button
+        android:id="@+id/btpay"
+        android:background="@drawable/design_bg_layout"
+        android:layout_width="300dp"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Pay" />
+
+
+</LinearLayout>

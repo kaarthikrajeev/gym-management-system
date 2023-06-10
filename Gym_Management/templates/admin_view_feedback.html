@@ -1,0 +1,70 @@
+{% include 'admin_header.html' %}
+
+    <section class="classtime-section class-time-table spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="section-title">
+                        <!-- <h2>Classtime Table</h2> -->
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="row">
+                <div class="col-lg-12">
+                    <div class="timetable-controls">
+                        <ul>
+                            <li class="active" data-tsfilter="all">all class</li>
+                            <li data-tsfilter="crossfit">crossfit</li>
+                            <li data-tsfilter="lunge">lunge ball</li>
+                            <li data-tsfilter="ppsr">ppsr</li>
+                            <li data-tsfilter="walls">walls</li>
+                            <li data-tsfilter="candy">candy</li>
+                        </ul>
+                    </div>
+                </div>
+            </div> -->
+            <div class="table">
+							<table align="center" border="2" class="table" style="width: 500px">
+								<form method="post">
+							<h2 align="center" style="color: white;">FEEDBACK</h2>
+							<thead>
+								<tr>
+									<th style="color: white;">User Name</th>
+									<th style="color: white;">Description</th>
+									<th style="color: white;">Feedback Date</th>
+
+									<th style="color: white;" >Reply</th>
+							
+								</tr>
+							</thead>
+							<tbody>
+								{% for row in data['feedback'] %}
+								<tr style="color:white;">
+									<td style="color: white;">{{row['first_name']}} {{row['last_name']}}</td>
+									<td style="color: white;">{{row['feedback_description']}}</td>
+									<td style="color: white;">{{row['feedback_date']}}</td>
+									{% if row['feedback_reply']=="pending"%} 
+					
+									<td style="color:white;"><input type="text" required="" name="feedback_reply{{loop.index}}">
+										<input type="submit" name="replys{{loop.index}}" value="Send"></td>
+
+									{% else %}
+									<td>{{row['feedback_reply']}}</td>
+									{% endif %}
+									
+								</tr>
+								{% endfor %}
+
+							</tbody>
+							</form>
+						</table>
+
+						</div>												
+					</div>
+				</div>
+			</section>
+
+
+
+
+{% include 'footer.html' %}

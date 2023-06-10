@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+android:background="@drawable/ipbtn"
+    android:layout_height="match_parent"
+    android:textColor="#000"
+    android:padding="17dp"
+    android:textSize="20dp"
+    android:fontFamily="@font/verdana"
+    android:layout_marginBottom="50dp">
+
+
+</TextView>

@@ -1,0 +1,220 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgc"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Home" >
+
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <Button
+            android:id="@+id/equip"
+            android:layout_width="180dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="20dp"
+                android:background="@drawable/ipbtn"
+                android:textColor="#fff"
+            android:text="Equipments" />
+
+            <Button
+                android:id="@+id/category"
+                android:layout_width="180dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/ipbtn"
+                android:textColor="#fff"
+                android:text="Category" />
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/cart"
+                android:layout_width="180dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ipbtn"
+                android:textColor="#fff"
+                android:text="Cart" />
+
+            <Button
+                android:id="@+id/myorders"
+                android:layout_width="180dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ipbtn"
+                android:textColor="#fff"
+                android:layout_marginLeft="5dp"
+                android:text="My Orders" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="180dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ipbtn"
+        android:textColor="#fff"
+        android:text="Subscribe Dietitian" />
+
+    <Button
+        android:id="@+id/diet"
+        android:layout_width="180dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ipbtn"
+        android:textColor="#fff"
+        android:layout_marginLeft="5dp"
+        android:text="My Diets" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+     <Button
+         android:id="@+id/message"
+         android:layout_width="180dp"
+         android:layout_height="130dp"
+         android:layout_marginTop="20dp"
+         android:background="@drawable/ipbtn"
+         android:textColor="#fff"
+         android:text="Complaint" />
+
+     <Button
+         android:id="@+id/feedback"
+         android:layout_width="180dp"
+         android:layout_height="130dp"
+         android:layout_marginTop="20dp"
+         android:background="@drawable/ipbtn"
+         android:textColor="#fff"
+         android:layout_marginLeft="5dp"
+         android:text="Feedback" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btinst"
+                android:layout_width="180dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ipbtn"
+                android:textColor="#fff"
+                android:text="Instructor" />
+
+                <Button
+                    android:id="@+id/bttou"
+                    android:layout_width="180dp"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/ipbtn"
+                    android:textColor="#fff"
+                    android:layout_marginLeft="5dp"
+                    android:text="Tournament" />
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/request"
+                    android:layout_width="180dp"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/ipbtn"
+                    android:textColor="#fff"
+                    android:text="Request" />
+
+                <Button
+                    android:id="@+id/btattendance"
+                    android:layout_width="180dp"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/ipbtn"
+                    android:textColor="#fff"
+                    android:layout_marginLeft="5dp"
+                    android:text="Attendance" />
+
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/batch"
+                    android:layout_width="180dp"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/ipbtn"
+                    android:textColor="#fff"
+                    android:text="Batch" />
+
+                <Button
+                    android:id="@+id/workout"
+                    android:layout_width="180dp"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/ipbtn"
+                    android:textColor="#fff"
+                    android:layout_marginLeft="5dp"
+                    android:text="Workouts" />
+
+            </TableRow>
+
+
+
+
+            <Button
+         android:id="@+id/logout"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:background="@drawable/ipbtn"
+         android:textColor="#fff"
+         android:text="Logout" />
+
+
+       </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

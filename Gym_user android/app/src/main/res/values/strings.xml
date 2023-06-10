@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GYM-WORLD</string>
+    <string name="action_settings">GYM-WORLD</string>
+    <string name="hello_world">GYM-WORLD</string>
+    <string name="title_activity_ipsettings">GYM-WORLD</string>
+    <string name="title_activity_home">GYM-WORLD</string>
+    <string name="title_activity_registration">GYM-WORLD</string>
+    <string name="title_activity_payment">GYM-WORLD</string>
+    <string name="title_activity_view_equipments">GYM-WORLD</string>
+    <string name="title_activity_view_usage">GYM-WORLD</string>
+    <string name="title_activity_payments">GYM-WORLD</string>
+    <string name="title_activity_viewdiet">GYM-WORLD</string>
+    <string name="title_activity_message">GYM-WORLD</string>
+    <string name="title_activity_complaint">GYM-WORLD</string>
+    <string name="title_activity_feedback">GYM-WORLD</string>
+
+</resources>

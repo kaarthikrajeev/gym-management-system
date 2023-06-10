@@ -1,0 +1,27 @@
+{% include 'admin_header.html' %}
+
+<center>
+	<form method="post">
+		<table class="table table-hover" style="width: 900px; background: wheat;">
+			<tr>
+				<th>Index</th>
+				<th>User Name</th>
+				<th>Instructor</th>
+				<th>Description</th>
+				<th>Rating</th>
+				<th>Date</th>
+			</tr>
+			{% for i in data['view'] %}
+			<tr>
+				<td>{{loop.index}}</td>
+				<td>{{i['first_name']}} {{i['last_name']}}</td>
+				<td>{{i['gfirst_name']}} {{i['glast_name']}}</td>
+				<td>{{i['review_desc']}}</td>
+				<td>{{i['rating']}}</td>
+				<td>{{i['review_date']}}</td>
+			</tr>
+			{% endfor %}
+		</table>
+	</form>
+</center>
+{% include 'footer.html' %}

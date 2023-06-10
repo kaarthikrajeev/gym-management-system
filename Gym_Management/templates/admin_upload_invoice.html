@@ -1,0 +1,85 @@
+{% include 'admin_header.html' %}
+
+   <section class="classtime-section class-time-table spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="section-title">
+                        <!-- <h2>Classtime Table</h2> -->
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="row">
+                <div class="col-lg-12">
+                    <div class="timetable-controls">
+                        <ul>
+                            <li class="active" data-tsfilter="all">all class</li>
+                            <li data-tsfilter="crossfit">crossfit</li>
+                            <li data-tsfilter="lunge">lunge ball</li>
+                            <li data-tsfilter="ppsr">ppsr</li>
+                            <li data-tsfilter="walls">walls</li>
+                            <li data-tsfilter="candy">candy</li>
+                        </ul>
+                    </div>
+                </div>
+            </div> -->
+            <div class="table">
+                					
+								<table>
+									<form method="post" enctype="multipart/form-data">
+										
+										<table align="center" style="color: white;">
+											<h2 align="center" style="color: white;">Update Invoice</h2>
+										
+											<tr>
+												<th>PDF</th>
+												<td><input type="file" name="uimage" accept="application/pdf"></td>
+											</tr>
+											<tr>
+												<td colspan="2" align="center"><input type="submit" class="btn btn-primary" name="uequipment" value="UPLOAD"></td>
+											</tr>
+											
+										</table>
+									</form>
+								</table>
+
+					
+
+									
+
+									
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+<!-- 
+<table>
+	<form method="post">
+		<table align="center">
+			<h2>Manage Equipments</h2>
+			<tr>
+				<th>Equipment Name</th>
+				<td><input type="text" name="eqname"></td>
+			</tr>
+			<tr>
+				<th>Description</th>
+				<td><textarea name="description"></textarea></td>
+			</tr>
+			<tr>
+				<th>Image</th>
+				<td><input type="file" name="image"></td>
+			</tr>
+			<tr>
+				<td><input type="submit" name="equipment" value="ADD"></td>
+			</tr>
+			
+		</table>
+	</form>
+</table> -->
+{% include 'footer.html' %}

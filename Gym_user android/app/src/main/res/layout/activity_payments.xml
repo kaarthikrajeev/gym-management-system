@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+       android:background="@drawable/bgb"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    tools:context=".Payment" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Payment Methods"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/cn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Card Number"
+        android:textColor="#000"
+        android:background="@drawable/edit_text_design"
+        android:padding="12dp"
+        android:maxLength="16"
+        android:layout_marginTop="15dp"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/expd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="#000"
+            android:background="@drawable/edit_text_design"
+            android:padding="12dp"
+            android:maxLength="5"
+            android:layout_marginTop="15dp"
+            android:hint="MM/YY" />
+
+        <EditText
+            android:id="@+id/cvv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:background="@drawable/edit_text_design"
+            android:padding="12dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:hint="CVV"
+            android:maxLength="3"
+            android:inputType="numberPassword" />
+    </TableRow>
+
+    <EditText
+        android:id="@+id/chn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="CARD HOLDERS NAME"
+        android:textColor="#000"
+        android:background="@drawable/edit_text_design"
+        android:padding="12dp"
+        android:layout_marginTop="15dp"
+        android:inputType="textPersonName" />
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:textColor="#000"
+        android:background="@drawable/edit_text_design"
+        android:padding="12dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          
+            android:text="Amount to be Payed"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/cash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="500"
+            android:inputType="number" />
+
+    </TableRow>
+
+    <Button
+        android:id="@+id/pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+         android:layout_marginTop="20dp"
+        android:background="@drawable/design_bg_layout"
+        android:text="Subscribe" />
+
+</LinearLayout>

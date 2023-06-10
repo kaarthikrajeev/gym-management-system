@@ -1,0 +1,4 @@
+#Tue May 02 21:48:36 IST 2023
+base.0=D\:\\clg proj\\Fat2Fit SNGIST\\Fat2Fit\\Gym_python\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

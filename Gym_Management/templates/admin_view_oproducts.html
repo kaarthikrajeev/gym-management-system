@@ -1,0 +1,42 @@
+{% include 'adminheader.html' %}
+
+ <!-- HERO -->
+     <section class="hero d-flex flex-column justify-content-center align-items-center" id="home">
+
+            <div class="bg-overlay"></div>
+
+               <div class="container">
+                    <div class="row">
+
+                         <div class="col-lg-8 col-md-10 mx-auto col-12">
+                              <div class="hero-text mt-5 text-center">    
+<center>
+	<h1>BOOKING IN OUR SYSTEM</h1>
+	<table class="table" style="width: 800px">
+		<tr>
+			
+			<th>PRODUCT</th>
+			<th>QUANTITY</th>
+			<th>AMOUNT</th>
+		</tr>
+	
+	{% for row in data['product'] %}
+	<tr>
+		
+		<td>{{row['product']}}</td>
+		<td>{{row['bquantity']}}</td>
+		<td>{{row['amount']}}</td>
+	</tr>
+	{% endfor %}
+	</table>
+</center>
+                              </div>
+                         </div>
+
+                    </div>
+               </div>
+     </section>
+		   						
+                            	   		
+
+{% include 'footer.html' %}

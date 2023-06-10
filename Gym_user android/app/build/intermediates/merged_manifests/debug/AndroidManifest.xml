@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gym"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="32" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@drawable/gymlogo"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.example.gym.User_view_workouts"
+            android:exported="false" />
+        <activity
+            android:name="com.example.gym.User_view_batch"
+            android:exported="false" />
+        <activity
+            android:name="com.example.gym.user_view_attendance"
+            android:exported="false" />
+        <activity
+            android:name="com.example.gym.Direct_buy_quantity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.gym.Forgot_password"
+            android:exported="false" />
+        <activity
+            android:name="com.example.gym.Customer_make_payment"
+            android:exported="false" />
+        <activity
+            android:name="com.example.gym.Set_new_password"
+            android:exported="false" />
+        <activity
+            android:name="com.example.gym.User_plan_payment"
+            android:exported="false" />
+        <activity
+            android:name="com.example.gym.User_view_plan"
+            android:exported="false" />
+        <activity
+            android:name="com.example.gym.View_my_request"
+            android:exported="false" />
+        <activity
+            android:name="com.example.gym.User_view_category"
+            android:exported="false" />
+        <activity
+            android:name="com.example.gym.View_tournament"
+            android:exported="false" />
+        <activity
+            android:name="com.example.gym.User_rate_employee"
+            android:exported="false" />
+        <activity
+            android:name="com.example.gym.User_view_employee"
+            android:exported="false" />
+        <activity
+            android:name="com.example.gym.Enter_otp"
+            android:exported="false" />
+        <activity
+            android:name="com.example.gym.View_order_products"
+            android:exported="false" />
+        <activity
+            android:name="com.example.gym.View_my_orders"
+            android:exported="false" />
+        <activity
+            android:name="com.example.gym.User_payment"
+            android:exported="false" />
+        <activity
+            android:name="com.example.gym.View_cart_items"
+            android:exported="false" />
+        <activity
+            android:name="com.example.gym.Add_to_cart"
+            android:exported="false" />
+        <activity
+            android:name="com.example.gym.View_products"
+            android:exported="false" />
+        <activity
+            android:name="com.example.gym.Login"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.gym.Ipsettings"
+            android:exported="true"
+            android:label="@string/title_activity_ipsettings" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.gym.Home"
+            android:label="@string/title_activity_home" />
+        <activity
+            android:name="com.example.gym.Registration"
+            android:label="@string/title_activity_registration" />
+        <activity
+            android:name="com.example.gym.Payment"
+            android:label="@string/title_activity_payment" />
+        <activity
+            android:name="com.example.gym.View_equipments"
+            android:label="@string/title_activity_view_equipments" />
+        <activity
+            android:name="com.example.gym.View_usage"
+            android:label="@string/title_activity_view_usage" />
+        <activity
+            android:name="com.example.gym.Payments"
+            android:label="@string/title_activity_payments" />
+        <activity
+            android:name="com.example.gym.Viewdiet"
+            android:label="@string/title_activity_viewdiet" />
+        <activity
+            android:name="com.example.gym.Message"
+            android:label="@string/title_activity_message" />
+        <activity
+            android:name="com.example.gym.Complaint"
+            android:label="@string/title_activity_complaint" />
+        <activity
+            android:name="com.example.gym.Feedback"
+            android:label="@string/title_activity_feedback" />
+    </application>
+
+</manifest>

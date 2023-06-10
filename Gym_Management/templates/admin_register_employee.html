@@ -1,0 +1,266 @@
+{% include 'admin_header.html' %}
+
+    <section class="classtime-section class-time-table spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="section-title">
+                        <!-- <h2>Classtime Table</h2> -->
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="row">
+                <div class="col-lg-12">
+                    <div class="timetable-controls">
+                        <ul>
+                            <li class="active" data-tsfilter="all">all class</li>
+                            <li data-tsfilter="crossfit">crossfit</li>
+                            <li data-tsfilter="lunge">lunge ball</li>
+                            <li data-tsfilter="ppsr">ppsr</li>
+                            <li data-tsfilter="walls">walls</li>
+                            <li data-tsfilter="candy">candy</li>
+                        </ul>
+                    </div>
+                </div>
+            </div> -->
+            <div class="table">
+                
+							
+							<table align="center">
+								<form method="post">
+									{% if data['update_employee'] %}
+									<table align="center"  class="table" style="width: 600px;">
+									<h1 align="center" style="color: white;">UPDATE EMPLOYEE</h1>
+									<tr>
+										<th style="color: white;">First Name</th>
+										<td><input required type="text" name="ufname" value="{{data['update_employee'][0]['gfirst_name']}}" required="" class="form-control"></td>
+									</tr>
+									<tr>
+										<th style="color: white;">Last Name</th>
+										<td><input required type="text" name="ulname" value="{{data['update_employee'][0]['glast_name']}}" required="" class="form-control"></td>
+									</tr>
+									
+									
+									<tr>
+										<th style="color: white;">Phone</th>
+										<td><input required minlength="10" min="0" pattern="{0-9}[10]" type="tel" name="uphone" value="{{data['update_employee'][0]['phone']}}" required="" class="form-control" pattern="[0-9]{10}"></td>
+									</tr>
+									<tr>
+										<th style="color: white;">Email</th>
+										<td><input type="email" name="uemail" value="{{data['update_employee'][0]['email']}}" required="" class="form-control"></td>
+									</tr>
+
+									<tr>
+										<td align="center" colspan="2"><input class="btn btn-primary btn-sm" type="submit" name="uemployee" value="UPDATE"></td>
+									</tr>
+										
+										</form>
+								</table>
+
+							{% else %}
+
+									<table align="center" class="table" style="width: 600px;" >
+										<form method="post">
+										
+									<h1 align="center" style="color: white;">INSTRUCTOR REGISTRATION</h1>
+									<tr>
+										<th style="color: white;">First Name</th>
+										<td><input type="text" name="fname" required="" class="form-control" placeholder="Enter firstname"></td>
+									</tr>
+									<tr>
+										<th style="color: white;">Last Name</th>
+										<td><input type="text" name="lname" required="" class="form-control" placeholder="Enter lastname"></td>
+									</tr>
+									<tr>
+										<th style="color: white;">User Name</th>
+										<td><input type="text" name="user" required="" class="form-control" placeholder="Enter username"></td>
+									</tr>
+									<tr>
+										<th style="color: white;">Password</th>
+										<td><input type="password" name="pass" required="" class="form-control" minlength="8" maxlength="16" placeholder="Enter atleast 8 characters"></td>
+									</tr>
+									<tr>
+										<th style="color: white;">Age</th>
+										<td><input type="number" name="age" maxlength="2" required="" class="form-control" placeholder="enter valid age eg- 26" ></td>
+									</tr>
+									
+									<tr>
+										<th style="color: white;">Gender</th>
+										<td style="color: white;"><span style="font-size: 20px !important;">Male</span>&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="gender" value="male" checked="" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<span style="font-size: 20px !important;">Female</span>&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="gender" value="female" >
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 20px !important;">Others</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="gender" value="other" >
+										</td>
+											
+									</tr>
+									<tr>
+										<th style="color: white;">Phone</th>
+										<td><input type="tel" minlength="10" name="phone" required="" class="form-control" pattern="[0-9]{10}" min="0" placeholder="Enter 10-digit phone number"></td>
+									</tr>
+									<tr>
+										<th style="color: white;">Email</th>
+										<td><input type="email" name="email" required="" class="form-control" placeholder="eg- abc@gmail.com"></td>
+									</tr>
+
+									<tr>
+										<td align="center" colspan="2"><input class="btn btn-primary btn-sm" type="submit" name="employee" value="REGISTER"></td>
+									</tr>
+
+								</table>
+									
+								</form>
+							</table>
+
+							{% endif %}
+
+									
+
+										<table border="2" align="center"  class="table" style="width: 1000px;color:#fff;">
+			<h3 align="center" style="color:#fff;">REGISTERED EMPLOYEE</h3>
+			<br><br>
+			<thead>
+				<th>First Name</th>
+				<th>Last Name</th>
+				<th>Age</th>
+				<th>Gender</th>
+				<th>Phone</th>
+				<th>Email</th>
+				<th>Manage</th>
+			</thead>
+			<tbody>
+				{% for row in data['employee_details']%}
+				<tr>
+					<td>{{ row['gfirst_name'] }}</td>
+					<td>{{ row['glast_name'] }}</td>
+					<td>{{ row['age'] }}</td>
+					<td>{{row['gender'] }}</td>
+					<td>{{ row['phone'] }}</td>
+					<td>{{ row['email'] }}</td>
+					<td><a href="?action=delete&id={{ row['instructor_id'] }}">Delete</a>
+						<a href="?action=update&id={{ row['instructor_id'] }}">Update</a></td>
+					
+				</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+
+	</form>
+</table>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!--     
+	<section class="banner-area relative" id="home">
+				<div class="overlay overlay-bg"></div>		
+				<div class="container">
+					<div class="row fullscreen d-flex align-items-center justify-content-start">
+						<div class="banner-content col-lg-12 col-md-12">
+
+
+							</table>
+							<br><br><br><br><
+							<table align="center">
+								<form method="post">
+									{% if data['update_employee'] %}
+									<table align="center"  class="table" style="width: 500px">
+									<h1 align="center" style="color: lightblue;">UPDATE EMPLOYEE</h1>
+									<tr>
+										<th style="color: lightblue;">First Name</th>
+										<td><input type="text" name="ufname" value="{{data['update_employee'][0]['first_name']}}" required="" class="form-control"></td>
+									</tr>
+									<tr>
+										<th style="color: lightblue;">Last Name</th>
+										<td><input type="text" name="ulname" value="{{data['update_employee'][0]['last_name']}}" required="" class="form-control"></td>
+									</tr>
+									
+									
+									<tr>
+										<th style="color: lightblue;">Phone</th>
+										<td><input type="number" name="uphone" value="{{data['update_employee'][0]['phone']}}" required="" class="form-control" pattern="[0-9]{10}"></td>
+									</tr>
+									<tr>
+										<th style="color: lightblue;">Email</th>
+										<td><input type="email" name="uemail" value="{{data['update_employee'][0]['email']}}" required="" class="form-control"></td>
+									</tr>
+
+									<tr>
+										<td align="center" colspan="2"><input class="btn btn-primary btn-sm" type="submit" name="uemployee" value="UPDATE"></td>
+									</tr>
+										
+										</form>
+								</table>
+
+							{% else %}
+
+									<table align="center" class="table" style="width: 500px;">
+										<form method="post">
+										
+									<h1 align="center" style="color: lightblue;">EMPLOYEE REGISTRATION</h1>
+									<tr>
+										<th style="color: lightblue;">First Name</th>
+										<td><input type="text" name="fname" required="" class="form-control"></td>
+									</tr>
+									<tr>
+										<th style="color: lightblue;">Last Name</th>
+										<td><input type="text" name="lname" required="" class="form-control"></td>
+									</tr>
+									<tr>
+										<th style="color: lightblue;">User Name</th>
+										<td><input type="text" name="user" required="" class="form-control"></td>
+									</tr>
+									<tr>
+										<th style="color: lightblue;">Password</th>
+										<td><input type="password" name="pass" required="" class="form-control"></td>
+									</tr>
+									<tr>
+										<th style="color: lightblue;">Age</th>
+										<td><input type="text" name="age" required="" class="form-control" ></td>
+									</tr>
+									<tr>
+										<th style="color: lightblue;">Gender</th>
+										<td style="color: lightblue;">Male<input type="radio" name="gender" value="male" checked="" class="form-control" >
+											Female<input type="radio" name="gender" value="female" class="form-control"></td>
+									</tr>
+									<tr>
+										<th style="color: lightblue;">Phone</th>
+										<td><input type="number" name="phone" required="" class="form-control" pattern="[0-9]{10}"></td>
+									</tr>
+									<tr>
+										<th style="color: lightblue;">Email</th>
+										<td><input type="email" name="email" required="" class="form-control"></td>
+									</tr>
+
+									<tr>
+										<td align="center" colspan="2"><input class="btn btn-primary btn-sm" type="submit" name="employee" value="REGISTER"></td>
+									</tr>
+
+								</table>
+									
+								</form>
+							</table>
+
+							{% endif %}
+
+									<br>
+									<br>
+									<br>
+ -->
+							<!-- <h1 class="text-uppercase">
+								Real Fitness <br>
+								Depends on Exercise					
+							</h1>
+							<p class="text-white text-uppercase pt-20 pb-20">
+								Shape your body well.
+							</p> -->
+				<!-- 		</div>												
+					</div>
+				</div>
+			</section>
+ -->
+ 
+
+{% include 'footer.html' %}

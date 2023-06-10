@@ -1,0 +1,182 @@
+{% include 'employee_header.html' %}
+
+   <section class="classtime-section class-time-table spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="section-title">
+                        <!-- <h2>Classtime Table</h2> -->
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="row">
+                <div class="col-lg-12">
+                    <div class="timetable-controls">
+                        <ul>
+                            <li class="active" data-tsfilter="all">all class</li>
+                            <li data-tsfilter="crossfit">crossfit</li>
+                            <li data-tsfilter="lunge">lunge ball</li>
+                            <li data-tsfilter="ppsr">ppsr</li>
+                            <li data-tsfilter="walls">walls</li>
+                            <li data-tsfilter="candy">candy</li>
+                        </ul>
+                    </div>
+                </div>
+            </div> -->
+            <div class="table">
+                					
+							<!-- 	<table>
+									<form method="post" enctype="multipart/form-data">
+										{% if data['update_equipments'] %}
+										<table align="center" style="color: white;">
+											<h2 align="center" style="color: white;">Update Equipments</h2>
+											<tr>
+												<th>Equipment Name</th>
+												<td><input type="text" name="ueqname" value="{{data['update_equipments'][0]['name']}}"></td> 
+											</tr>
+											<tr>
+												<th>Description</th>
+												<td><textarea name="udescription"></textarea></td>
+											</tr>
+											<tr>
+												<th>Image</th>
+												<td><input type="file" name="uimage" value="{{data['update_equipments'][0]['image']}}"></td>
+											</tr>
+											<tr>
+												<td colspan="2" align="center"><input type="submit" class="btn btn-primary" name="uequipment" value="UPDATE"></td>
+											</tr>
+											
+										</table>
+									</form>
+								</table>
+
+							{% else %} -->
+
+																	
+							<!-- 	<table>
+									<form method="post" enctype="multipart/form-data">
+										<table align="center" style="color: white;">
+											<h2 align="center" style="color: white;">Manage Equipments</h2>
+											<tr>
+												<th>User Name</th>
+												<td><input type="text" name="eqname"></td>
+											</tr>
+											<tr>
+												<th>Work Title</th>
+												<td><textarea name="description"></textarea></td>
+											</tr>
+											<tr>
+												<th>Day</th>
+												<td><input type="file" name="image"></td>
+											</tr>
+											<tr>
+												<th>Duration</th>
+												<td><input type="file" name="image"></td>
+											</tr>
+											<tr>
+												<td colspan="2" align="center"><input type="submit" class="btn btn-primary" name="equipment" value="ADD"></td>
+											</tr>
+											
+										</table>
+									</form>
+								</table> -->
+<!-- 
+							{% endif %} -->
+
+									
+			<form method="post">
+			<table border="2" align="center"  class="table" style="width: 1000px;color:#fff;">
+			<h3 align="center" style="color:#fff;"> User Workouts</h3>
+			<br><br>
+			<thead>
+				<th>User Name</th>
+				<th>Workout Title</th>
+				<th>No. of Day</th>
+				<th>Duration( In Minutes )</th>
+				<th>Create</th>
+			</thead>
+			<tbody>
+				{% for row in data['user_workout_details']%}
+				<tr>
+					<td>{{ row['first_name'] }} {{ row['last_name'] }}</td>
+					{% if data['v_view_workouts']%}
+					<td>
+						<select name="workout_ids">
+							{% for rows in data['v_view_workouts'] %}
+							<option value="{{rows['workout_id']}}">{{rows['title']}}</option>
+							{% endfor %}
+							
+						</select>
+					</td>
+					{% else %}
+					<td>
+						<select name="workout_id">
+							{% for row in data['view_workouts'] %}
+							<option value="{{row['workout_id']}}">{{row['title']}}</option>
+							{% endfor %}
+							
+						</select>
+					</td>
+					{% endif %}
+					{% if data['p_workout_details'] %}
+
+					<td><input type="text" required=""  name="day" value="{{ data['p_workout_details'][0]['day']}}"></td>
+
+					<td><input type="text" required="" placeholder="hh:mm" name="duration" value="{{ data['p_workout_details'][0]['duration']}}"></td>
+
+
+					
+					<td><input type="submit" name="workouts" value="UPDATE">
+						<input type="hidden" name="user_workout_id"></td>
+
+
+					{% else %}
+					<td><input type="text" required="" name="day" ></td>
+
+					<td><input type="text" required="" placeholder="hh:mm" name="duration" ></td>
+					<td><input type="submit" name="workout" value="ADD">
+						<input type="hidden" name="user_id" value="{{row['user_id']}}"></td>
+					{% endif %}
+	
+				</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+
+	</form>
+</table>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+<!-- 
+<table>
+	<form method="post">
+		<table align="center">
+			<h2>Manage Equipments</h2>
+			<tr>
+				<th>Equipment Name</th>
+				<td><input type="text" name="eqname"></td>
+			</tr>
+			<tr>
+				<th>Description</th>
+				<td><textarea name="description"></textarea></td>
+			</tr>
+			<tr>
+				<th>Image</th>
+				<td><input type="file" name="image"></td>
+			</tr>
+			<tr>
+				<td><input type="submit" name="equipment" value="ADD"></td>
+			</tr>
+			
+		</table>
+	</form>
+</table> -->
+{% include 'footer.html' %}
